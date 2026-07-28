@@ -2,7 +2,7 @@
 
 A dark, glassmorphic Kanban-style task manager — built with React, Tailwind CSS, and dnd-kit.
 
-**[Live Demo](#)** ← update this link after deploying in Step 5
+**[Live Demo](#)**https://akshatha-vernekar.github.io/aurora-board/
 
 ![Aurora Board Screenshot](./screenshot.png)
 
