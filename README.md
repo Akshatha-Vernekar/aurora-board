@@ -1,16 +1,44 @@
-# React + Vite
+# 🌌 Aurora Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A dark, glassmorphic Kanban-style task manager — built with React, Tailwind CSS, and dnd-kit.
 
-Currently, two official plugins are available:
+**[Live Demo](#)** ← update this link after deploying in Step 5
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Aurora Board Screenshot](./screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Drag-and-drop tasks between columns (To Do / In Progress / Done)
+- Add and delete tasks per column
+- Keyboard-accessible drag-and-drop (via dnd-kit)
+- Data persists across refreshes using localStorage
+- Fully responsive — stacks into a single column on mobile
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **React** + **Vite** — UI and build tooling
+- **Tailwind CSS v4** — styling, including the dark aurora/glassmorphism look
+- **@dnd-kit** — drag-and-drop and sortable lists
+- **localStorage** — client-side persistence (no backend required)
+
+## Running Locally
+
+```bash
+git clone https://github.com/Akshatha-Vernekar/aurora-board.git
+cd aurora-board
+npm install
+npm run dev
+```
+
+Then open `http://localhost:5173`.
+
+## What I'd Add Next
+
+- Task due dates and priority tags
+- Multiple boards
+- Light/dark theme toggle
+- Backend sync (currently local-only)
+
+---
+
+Built as a personal project by [Akshatha Vernekar].
